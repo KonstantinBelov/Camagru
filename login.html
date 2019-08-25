@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Camagru</title>
+  </head>
+  <body>
+    <header>
+      <span>Hi username</span>
+      <span>
+        <button onclick="login.html"><a href="./login.html">logout</a></button>
+      </span>
+    </header>
+        
+    <form action="/example.html" method="POST"> 
+      <h1>Enter your login and password</h1>  
+      <label for="userName">Username:</label>
+      <input name="userName" id="userName" type="text" required minlength="2" maxlength="16" pattern="[a-zA-Z0-9]+">
+      <br>
+      <label for="password">Password:</label>
+      <input name="password" id="password" type="password" required minlength="6" maxlength="42">
+      <br>
+      <input type="submit">
+    </form>
+
+    <footer>
+
+    </footer>
+  </body>
+</html>
