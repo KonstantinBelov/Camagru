@@ -3,13 +3,14 @@
 <html>
   <head>
     <title>Camagru</title>
+    <link href="./style.css" type="text/css" rel="stylesheet">
   </head>
   <body>
     <header>
       <nav>
-        <span>Hi username</span>
+        <span class="bold">Hi username</span>
         <span>
-          <button onclick="login.html"><a href="./login.html">logout</a></button>
+          <button onclick="login.html" class="bold"><a href="./login.html">logout</a></button>
         </span>
       </nav>
     </header>
@@ -27,9 +28,9 @@
           <figure><img src="imgs/beer.png"></figure>
         </form>
       </span>
-      <span id="pictures">Your pictures</span>
+      <span id="pictures" class="bold">Your pictures</span>
       <div>
-          <button>Choose an effect</button>
+          <button class="red">Choose an effect</button>
       </div>
       <div id="camera">
         <video src="./webcam.js" height="720" width="1280">Video not supported / Turn on your camera</video>

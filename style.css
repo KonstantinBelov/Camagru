@@ -1,3 +1,15 @@
 header {
 	background-color: orange;
+	color: aliceblue;
+	font-size: 20;
+	font-family: Arial;
 }
+
+.bold {
+	font-weight: bold;
+}
+
+.red {
+	background-color: red;
+}
+
