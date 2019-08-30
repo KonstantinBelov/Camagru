@@ -1,0 +1,1 @@
+let defaultName = username || 'Stranger';
