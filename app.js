@@ -1,1 +1,1 @@
-let defaultName = username || 'Stranger';
+let defaultName = username || 'Guest';

@@ -1,22 +1,37 @@
-header {
-	background-color: orange;
+* {
+  font-size: 16px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header,
+footer {
+	background-color: #db6832;
 	color: aliceblue;
-	font-size: 20px;
-	font-family: Arial;
+	height: 60px;
 }
 
 .bold {
 	font-weight: bold;
 }
 
-.red {
-	background-color: red;
+.mainButton {
+	background-color: #f53a25;
+	height: 50px;
+  width: 640px;
 }
 
 button {
-	text-align: center;
+  text-align: center;
+  color: aliceblue;
+  padding: 15px;
 }
 
-footer {
-	background-color: orange;
+#pictures {
+	background-color: #db6832;
+	color: aliceblue;
+	font-size: 18px;
+	height: 200px;
+  width: 500px;
+  padding: 20px;
 }
