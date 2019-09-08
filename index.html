@@ -7,12 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Camagru</title>
     <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
-    <style src="./app.js"></style>
+    <script src="./app.js" type="text/javascript"></script>
   </head>
   <body>
     <header>
       <nav>
-        <span class="bold" id="greeting">Hi username</span>
+        <span id="greeting" class="bold">Hi username</span>
         <span>
           <button onclick="login.html" class="bold"><a href="./login.html">logout</a></button>
         </span>
@@ -40,10 +40,12 @@
       </span>
       <span id="pictures" class="bold">Your pictures</span>
       <div>
-          <button class="mainButton">Choose an effect</button>
+          <button id="mainButton">Choose an effect</button>
       </div>
-      <div id="camera">
+      <div id="video">
         <video src="./webcam.js" height="720" width="1280">Video not supported / Turn on your camera</video>
+        <br>
+        <button id="shootButton">Shoot!</button>
       </div>
     </main>  
     <footer>

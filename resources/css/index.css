@@ -30,10 +30,9 @@ main {
 	font-weight: bold;
 }
 
-.mainButton {
-	background-color: #f53a25;
-	height: 50px;
-  width: 640px;
+video {
+  border: 5px;
+  border-color: green;
 }
 
 button {
@@ -42,6 +41,20 @@ button {
   padding: 15px;
   border: 0px;
   margin: 0px;
+  cursor: pointer;
+  background-color: #bf340d;
+}
+
+#mainButton {
+	background-color: #f53a25;
+	height: 50px;
+  width: 640px;
+}
+
+#shootButton {
+  background-color: green;
+	height: 50px;
+  width: 640px;
 }
 
 #pictures {
