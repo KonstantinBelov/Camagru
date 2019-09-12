@@ -1,7 +1,8 @@
 let defaultName = username || 'Guest';
 
 let shootButton = document.getElementById('shootButton');
-shootButton.onclick = () => {};
+shootButton.onclick = () => {}; //eventHandlerFunction
+shootButton.addEventListener('click', turnCameraOn) //turnCameraOn === eventHandlerFunction
 
 
 
